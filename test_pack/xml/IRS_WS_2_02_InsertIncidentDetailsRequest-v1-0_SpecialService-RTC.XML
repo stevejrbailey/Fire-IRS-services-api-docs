@@ -1,0 +1,130 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:irs="http://www.fire.gov.uk/schemas/Incident" ValidationStatus="Full" SchemaVersion="v1-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_02_SpecialService-RTC</FRSIncidentNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>70</IncidentStatus>
+		</AuditDetail>
+		<ResponsibleParty>
+			<StationId>FFM02</StationId>
+			<FireOfficerId>FFMW002</FireOfficerId>
+			<FRSId>FM</FRSId>
+		</ResponsibleParty>
+		<IncidentLocation>
+			<fire:Address Validation="not-checked" xmlns:fire="http://www.fire.gov.uk/schemas">
+				<bs7666:PAON xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">
+					<bs7666:Description>Another Cottage</bs7666:Description>
+				</bs7666:PAON>
+				<bs7666:StreetDescription xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">London Road</bs7666:StreetDescription>
+				<bs7666:Town xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">Solihull</bs7666:Town>
+				<bs7666:PostTown xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">Solihull</bs7666:PostTown>
+				<bs7666:PostCode xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">B93 8PP</bs7666:PostCode>
+				<fire:Coordinates>
+					<bs7666:X xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">100456</bs7666:X>
+					<bs7666:Y xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">655002</bs7666:Y>
+				</fire:Coordinates>
+			</fire:Address>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="R">138</MobiliseIncidentType>
+			<PriorityAtCall>1</PriorityAtCall>
+			<LateCall>no</LateCall>
+			<TimeOfCall>2006-07-01T05:45:47.0Z</TimeOfCall>
+			<OriginOfCall>2</OriginOfCall>
+			<TimeStoppedMobilising>2006-07-01T06:15:47.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2006-07-01T08:30:47.0Z</TimeIncidentClosed>
+			<OverTheBorder>no</OverTheBorder>
+		</IncidentAtCall>
+		<IncidentOnAttendance>
+			<IncidentCategory>SpecialService</IncidentCategory>
+			<PriorityOnAttendance>1</PriorityOnAttendance>
+			<PropertyType PropertyCategory="RoadVehicle" IsPropertyRegulated="no">350</PropertyType>
+			<SpecialService>
+				<SpecialServiceType>1</SpecialServiceType>
+				<HazardousMaterialsInvolved>no</HazardousMaterialsInvolved>
+				<IsRTC>yes</IsRTC>
+				<RTC>
+					<MultipleVehicles>
+						<NumberOfTwoWheeledVehicles>0</NumberOfTwoWheeledVehicles>
+						<NumberOfSmallVehicles>2</NumberOfSmallVehicles>
+						<NumberOfLargeVehicles>1</NumberOfLargeVehicles>
+					</MultipleVehicles>
+					<ExtricationInvolved>yes</ExtricationInvolved>
+					<Extrications>
+						<Extrication>
+							<VehicleType>1</VehicleType>
+							<VehiclePosition>3</VehiclePosition>
+							<MethodUsed>4</MethodUsed>
+							<TimeTaken>2</TimeTaken>
+						</Extrication>
+					</Extrications>
+				</RTC>
+			</SpecialService>
+			<InvolvementOfPersons>
+				<EvacuationAssistanceInvolved>no</EvacuationAssistanceInvolved>
+				<VictimsInvolved>yes</VictimsInvolved>
+				<Victims>
+					<Victim Id="1">
+						<Type>2</Type>
+						<LocationAtFireStart>1</LocationAtFireStart>
+						<WhereFound>1</WhereFound>
+						<Role>6</Role>
+						<PersonName>
+							<pdt:PersonNameTitle xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives">Mrs</pdt:PersonNameTitle>
+							<pdt:PersonGivenName xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives">B</pdt:PersonGivenName>
+							<pdt:PersonFamilyName xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives">Godard</pdt:PersonFamilyName>
+						</PersonName>
+						<Age>36</Age>
+						<Gender>2</Gender>
+						<Ethnicity>Bangladeshi</Ethnicity>
+						<WasRescued>yes</WasRescued>
+						<RescueDetails>
+							<Location>1</Location>
+							<By>1</By>
+							<Method>8</Method>
+						</RescueDetails>
+						<Injured>
+							<NatureOfInjury>10</NatureOfInjury>
+							<SeverityOfInjury>1</SeverityOfInjury>
+							<OtherCircumstances>10</OtherCircumstances>
+							<OxygenProvided>no</OxygenProvided>
+							<WasFireRelated>no</WasFireRelated>
+						</Injured>
+					</Victim>
+				</Victims>
+				<AttackOnFirefightersInvolved>no</AttackOnFirefightersInvolved>
+			</InvolvementOfPersons>
+		</IncidentOnAttendance>
+		<ResourceUsage>
+			<Vehicle>
+				<Type>ATL</Type>
+				<RCCcallsign>FFM02P2</RCCcallsign>
+				<TimeMobilised>2006-07-01T06:01:00.0Z</TimeMobilised>
+				<TimeMobile>2006-07-01T06:03:03.0Z</TimeMobile>
+				<TimeAtScene>2006-07-01T06:18:22.0Z</TimeAtScene>
+				<TimeAvailable>2006-07-01T08:25:47.0Z</TimeAvailable>
+				<IsDemountable>no</IsDemountable>
+				<NumberOfCrew>6</NumberOfCrew>
+				<DeployedFrom>
+					<HomeStation>
+						<FRSId>FM</FRSId>
+						<StationId>FFM02</StationId>
+					</HomeStation>
+				</DeployedFrom>
+			</Vehicle>
+			<NumberOfVehiclesDeployed>1</NumberOfVehiclesDeployed>
+			<Equipment>
+				<Type>2</Type>
+				<NumberUsed>1</NumberUsed>
+				<FRScallsign>ABC003</FRScallsign>
+			</Equipment>
+			<EquipmentUsed>yes</EquipmentUsed>
+			<FireOfficer>
+				<RCCcallsign>FFMS002</RCCcallsign>
+			</FireOfficer>
+			<NumberOfNonRiderOfficers>0</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+		<AdditionalInfo InfoType="Summary">Special Service - RTC Small Car</AdditionalInfo>
+	</Incident>
+</IncidentDetails>

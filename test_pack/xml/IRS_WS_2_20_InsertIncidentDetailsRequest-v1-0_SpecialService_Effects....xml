@@ -1,0 +1,74 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:irs="http://www.fire.gov.uk/schemas/Incident" ValidationStatus="Full" SchemaVersion="v1-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd" xmlns:fire="http://www.fire.gov.uk/schemas" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666" xmlns:per="http://www.govtalk.gov.uk/people/PersonDescriptives">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_20_SpecialService-EffectsEntry</FRSIncidentNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>70</IncidentStatus>
+		</AuditDetail>
+		<IncidentLocation>
+			<fire:Address Validation="PAF-check-valid">
+				<bs7666:PAON>
+					<bs7666:Description>Another Cottage</bs7666:Description>
+				</bs7666:PAON>
+				<bs7666:StreetDescription>London Road</bs7666:StreetDescription>
+				<bs7666:Locality>Knowle</bs7666:Locality>
+				<bs7666:Town>Solihull</bs7666:Town>
+				<bs7666:AdministrativeArea>West Midlands</bs7666:AdministrativeArea>
+				<bs7666:PostTown>Solihull</bs7666:PostTown>
+				<bs7666:PostCode>B93 8PP</bs7666:PostCode>
+				<fire:Coordinates>
+					<bs7666:X>163578</bs7666:X>
+					<bs7666:Y>145634</bs7666:Y>
+				</fire:Coordinates>
+			</fire:Address>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="R">130</MobiliseIncidentType>
+			<PriorityAtCall>1</PriorityAtCall>
+			<LateCall>yes</LateCall>
+			<TimeOfCall>2006-12-17T06:30:47.0Z</TimeOfCall>
+			<OriginOfCall>2</OriginOfCall>
+			<TimeStoppedMobilising>2006-12-17T07:30:47.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2006-12-17T09:30:47.0Z</TimeIncidentClosed>
+			<OverTheBorder>no</OverTheBorder>
+		</IncidentAtCall>
+		<IncidentOnAttendance>
+			<IncidentCategory>SpecialService</IncidentCategory>
+			<PriorityOnAttendance>5</PriorityOnAttendance>
+			<PropertyType PropertyCategory="NonResidential" IsPropertyRegulated="no">132</PropertyType>
+			<SpecialService>
+				<SpecialServiceType>252</SpecialServiceType>
+				<HazardousMaterialsInvolved>no</HazardousMaterialsInvolved>
+				<IsRTC>no</IsRTC>
+			</SpecialService>
+		</IncidentOnAttendance>
+		<ResourceUsage>
+			<Vehicle>
+				<Type>TGV</Type>
+				<RCCcallsign>FFM02Z9</RCCcallsign>
+				<TimeMobilised>2006-12-17T06:32:47.0Z</TimeMobilised>
+				<TimeMobile>2006-12-17T06:35:47.0Z</TimeMobile>
+				<TimeAtScene>2006-12-17T07:32:47.0Z</TimeAtScene>
+				<TimeAvailable>2006-12-17T09:15:47.0Z</TimeAvailable>
+				<IsDemountable>no</IsDemountable>
+				<NumberOfCrew>1</NumberOfCrew>
+				<DeployedFrom>
+					<HomeStation>
+						<FRSId>FM</FRSId>
+						<StationId>FFM02</StationId>
+					</HomeStation>
+				</DeployedFrom>
+			</Vehicle>
+			<NumberOfVehiclesDeployed>1</NumberOfVehiclesDeployed>
+			<Equipment>
+				<Type>3</Type>
+				<NumberUsed>0</NumberUsed>
+				<RCCcallsign>FFMN015</RCCcallsign>
+			</Equipment>
+			<EquipmentUsed>yes</EquipmentUsed>
+			<NumberOfNonRiderOfficers>1</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+		<AdditionalInfo InfoType="Summary">Special Service - Effecting Entry to a Building</AdditionalInfo>
+	</Incident>
+</IncidentDetails>

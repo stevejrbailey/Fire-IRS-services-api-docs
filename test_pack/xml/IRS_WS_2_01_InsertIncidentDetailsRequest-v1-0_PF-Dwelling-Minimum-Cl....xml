@@ -1,0 +1,33 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:fire="http://www.fire.gov.uk/schemas" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:gms-xs="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd" ValidationStatus="Full" SchemaVersion="v1-0">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_01_PF-Dwelling-Minimum</FRSIncidentNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>50</IncidentStatus>
+		</AuditDetail>
+		<IncidentLocation>
+			<fire:NonAddressable>
+				<fire:Coordinates>
+					<bs7666:X>100456</bs7666:X>
+					<bs7666:Y>655002</bs7666:Y>
+				</fire:Coordinates>
+			</fire:NonAddressable>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="F">36</MobiliseIncidentType>
+			<PriorityAtCall>2</PriorityAtCall>
+			<LateCall>no</LateCall>
+			<TimeOfCall>2007-05-01T05:45:47.0Z</TimeOfCall>
+			<OriginOfCall>2</OriginOfCall>
+			<TimeStoppedMobilising>2007-05-01T05:45:52.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2007-05-01T05:45:58.0Z</TimeIncidentClosed>
+			<OverTheBorder>no</OverTheBorder>
+		</IncidentAtCall>
+		<ResourceUsage>
+			<NumberOfVehiclesDeployed>0</NumberOfVehiclesDeployed>
+			<EquipmentUsed>no</EquipmentUsed>
+			<NumberOfNonRiderOfficers>0</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+	</Incident>
+</IncidentDetails>

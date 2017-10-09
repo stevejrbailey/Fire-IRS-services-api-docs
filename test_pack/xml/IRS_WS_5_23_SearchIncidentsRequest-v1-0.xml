@@ -1,0 +1,26 @@
+<SearchIncidentsRequest xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:irs="http://www.fire.gov.uk/schemas/Incident" SchemaVersion="v1-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd">
+	<SearchCriteria>
+		<IncidentDateRange>
+			<StartDateTime>2006-12-01T00:00:00.0</StartDateTime>
+			<EndDateTime>2006-12-01T23:59:59.9</EndDateTime>
+			<DateRangeType>TimeOfCall</DateRangeType>
+		</IncidentDateRange>
+		<ByTerritoryCategory>
+			<ResponsibleParty>
+				<FRSId>FM</FRSId>
+			</ResponsibleParty>
+			<OverTheBorder>yes</OverTheBorder>
+		</ByTerritoryCategory>
+		<IncidentStatusRange>
+			<IncidentStatusFrom>0</IncidentStatusFrom>
+			<IncidentStatusTo>90</IncidentStatusTo>
+		</IncidentStatusRange>
+	</SearchCriteria>
+	<SearchFilters>
+		<!--	<PostCode>B90 8AJ</PostCode> -->
+		<!--	<IncidentCategory>Fire</IncidentCategory> -->
+	</SearchFilters>
+	<SearchControl>
+		<PageSize>20</PageSize>
+	</SearchControl>
+</SearchIncidentsRequest>

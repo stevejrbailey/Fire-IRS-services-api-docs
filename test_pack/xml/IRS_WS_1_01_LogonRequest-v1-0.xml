@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><!-- URL https://irs.xml.fire.gov.uk/staging/irsis/irsis.asmx  ACTION SecurityRequest -->
+	<soap:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<wsse:UsernameToken>
+				<wsse:Username>FM_MIS</wsse:Username>
+				<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"></wsse:Password>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soap:Header>
+	<soap:Body>
+		<RequestSecurityToken xmlns="http://schemas.xmlsoap.org/ws/2005/02/trust">
+			<RequestType>http://schemas.xmlsoap.org/ws/2005/02/trust/Issue</RequestType>
+		</RequestSecurityToken>
+	</soap:Body>
+</soap:Envelope>

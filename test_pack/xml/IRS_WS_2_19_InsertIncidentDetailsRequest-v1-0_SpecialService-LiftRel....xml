@@ -1,0 +1,89 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:irs="http://www.fire.gov.uk/schemas/Incident" ValidationStatus="Full" SchemaVersion="v1-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd" xmlns:fire="http://www.fire.gov.uk/schemas" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666" xmlns:per="http://www.govtalk.gov.uk/people/PersonDescriptives">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_19_SpecialService-LiftRelease</FRSIncidentNumber>
+			<NationalStatisticsNumber>
+				<FRSId>FS</FRSId>
+			</NationalStatisticsNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>70</IncidentStatus>
+		</AuditDetail>
+		<IncidentLocation>
+			<fire:Address Validation="PAF-check-valid">
+				<bs7666:PAON>
+					<bs7666:Description>SVG International House</bs7666:Description>
+				</bs7666:PAON>
+				<bs7666:StreetDescription>London Road</bs7666:StreetDescription>
+				<bs7666:Locality>Knowle</bs7666:Locality>
+				<bs7666:Town>Solihull</bs7666:Town>
+				<bs7666:AdministrativeArea>West Midlands</bs7666:AdministrativeArea>
+				<bs7666:PostTown>Solihull</bs7666:PostTown>
+				<bs7666:PostCode>B90 8AJ</bs7666:PostCode>
+				<fire:Coordinates>
+					<bs7666:X>163578</bs7666:X>
+					<bs7666:Y>145634</bs7666:Y>
+				</fire:Coordinates>
+			</fire:Address>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="R">128</MobiliseIncidentType>
+			<PriorityAtCall>4</PriorityAtCall>
+			<LateCall>no</LateCall>
+			<TimeOfCall>2006-07-01T05:45:47.0Z</TimeOfCall>
+			<OriginOfCall>1</OriginOfCall>
+			<TimeStoppedMobilising>2006-07-01T06:15:47.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2006-07-01T08:30:47.0Z</TimeIncidentClosed>
+			<OverTheBorder>yes</OverTheBorder>
+		</IncidentAtCall>
+		<IncidentOnAttendance>
+			<IncidentCategory>SpecialService</IncidentCategory>
+			<PriorityOnAttendance>4</PriorityOnAttendance>
+			<PropertyType PropertyCategory="NonResidential" IsPropertyRegulated="yes">80</PropertyType>
+			<SpecialService>
+				<SpecialServiceType>242</SpecialServiceType>
+				<HazardousMaterialsInvolved>no</HazardousMaterialsInvolved>
+				<IsRTC>no</IsRTC>
+			</SpecialService>
+		</IncidentOnAttendance>
+		<ResourceUsage>
+			<Vehicle>
+				<Type>ALP</Type>
+				<RCCcallsign>FFM01P1</RCCcallsign>
+				<TimeMobilised>2006-07-01T06:10:00.0Z</TimeMobilised>
+				<TimeMobile>2006-07-01T06:11:30.0Z</TimeMobile>
+				<TimeAtScene>2006-07-01T06:15:22.0Z</TimeAtScene>
+				<TimeAvailable>2006-07-01T08:25:47.0Z</TimeAvailable>
+				<IsDemountable>no</IsDemountable>
+				<NumberOfCrew>5</NumberOfCrew>
+				<DeployedFrom>
+					<HomeStation>
+						<FRSId>FM</FRSId>
+						<StationId>FFM01</StationId>
+					</HomeStation>
+				</DeployedFrom>
+			</Vehicle>
+			<NumberOfVehiclesDeployed>1</NumberOfVehiclesDeployed>
+			<Equipment>
+				<Type>40</Type>
+				<NumberUsed>1</NumberUsed>
+				<RCCcallsign>FFMN501</RCCcallsign>
+			</Equipment>
+			<EquipmentUsed>yes</EquipmentUsed>
+			<FireOfficer>
+				<RCCcallsign>FFMS011</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF012</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF106</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF901</RCCcallsign>
+			</FireOfficer>
+			<NumberOfNonRiderOfficers>0</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+		<AdditionalInfo InfoType="Summary">Special Service - Release people from a Lift at a Call Centre.</AdditionalInfo>
+	</Incident>
+</IncidentDetails>

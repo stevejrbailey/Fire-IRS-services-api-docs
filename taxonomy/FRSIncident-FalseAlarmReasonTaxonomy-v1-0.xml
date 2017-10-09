@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ControlledList xmlns="http://www.esd.org.uk/standards" xmlns:mos="urn:schemas-microsoft-com:office:spreadsheet" xmlns:fire="http://www.fire.gov.uk/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.esd.org.uk/standards http://www.esd.org.uk/standards/xmlschemas/taxonomy-v3.0.xsd" Version="1.0" LatestVersionLocation="" HomeLocation="" VersionDate="2005-10-26" ListName="Fire Incident False Alarm Reasons List" ItemName="False Alarm Reason">
+	<Metadata>
+		<Audience>e-service developers</Audience>
+		<Contributor>Steve Bailey,Hyfinity Limited (mailto:steve.bailey@hyfinity.com)</Contributor>
+		<Contributor>Gerard Smyth, Hyfinity Limited (mailto:gerard.smyth@hyfinity.com)</Contributor>
+		<Creator>Fire and Rescue Statistics Division, HM Government</Creator>
+		<Date>2006-06-09</Date>
+		<Date.Created>2005-08-15</Date.Created>
+		<Date.Modified>2012-03-05</Date.Modified>
+		<Description>Fire and Rescue Statistics - Incident Collection System taxonomy file defining the False Alarm Types based on the Convergence Products.</Description>
+		<Format>XML schema Instance, W3C Recommendation 2001</Format>
+		<Identifier>FRSIncident-FalseAlarmTypeTaxonomy-v1-0</Identifier>
+		<Language>[ISO 639-2/B] ENG</Language>
+		<Publisher>HM Government</Publisher>
+		<Relation.Requires>taxonomy-v3-0</Relation.Requires>
+		<Rights.Copyright>Crown Copyright 2007</Rights.Copyright>
+		<Subject.Category>Response</Subject.Category>
+		<Subject.Project>Fire and Rescue Statistics - Incident Collection System</Subject.Project>
+		<Title>Fire and Rescue Statistics - Incident Collection System taxonomy for Incident False Alarm Reason Types</Title>
+	</Metadata>
+	<Item Id="0" ConceptId="0" Obsolete="false" AddedInVersion="1.0" LastUpdatedInVersion="1.0" Preferred="true">
+		<Name>False Alarm Reason</Name>
+		<ScopeNotes>Base item for all false alarm reasons</ScopeNotes>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="1000" Id="1000">
+		<Name>Malicious False Alarm</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="0" Id="0">False Alarm Reason</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="10" Id="10">
+		<Name>By phone</Name>
+		<ScopeNotes>Includes where an extinguisher is squirted at a detector.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="11" Id="11">
+		<Name>By phone, Call NOT challenged</Name>
+		<ScopeNotes>I.e. FRS Control received the call but did not challenge, accepted it as genuine and mobilised resource.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="13" Id="13">
+		<Name>Activation of fire call point/alarm</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="14" Id="14">
+		<Name>Bonfire</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="12" Id="12">
+		<Name>Special Service - Not Required</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="15" Id="15">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1000" Id="1000">Malicious False Alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="1010" Id="1010">
+		<Name>Fire alarm due to Apparatus</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="0" Id="0">False Alarm Reason</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2000" Id="2000">
+		<Name>Human</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="20" Id="20">
+		<Name>Accidentally/carelessly set off</Name>
+		<ScopeNotes>Includes break glass call point accidentally set off and set off by builders/tradesmen working.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2000" Id="2000">Human</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="21" Id="21">
+		<Name>Testing</Name>
+		<ScopeNotes>Use where a person testing the alarm system has caused the FRS to automatically be called to attend the premises.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2000" Id="2000">Human</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="22" Id="22">
+		<Name>Smoking</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2000" Id="2000">Human</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="23" Id="23">
+		<Name>Cooking/burnt toast</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2000" Id="2000">Human</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="24" Id="24">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2000" Id="2000">Human</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2005" Id="2005">
+		<Name>Animal</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="25" Id="25">
+		<Name>Accidentally/carelessly set off</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2005" Id="2005">Animal</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="26" Id="26">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2005" Id="2005">Animal</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2010" Id="2010">
+		<Name>System: smoke alarm</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="30" Id="30">
+		<Name>Poor maintenance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="31" Id="31">
+		<Name>Faulty</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="32" Id="32">
+		<Name>Damaged</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="33" Id="33">
+		<Name>Incorrect positioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="34" Id="34">
+		<Name>Unsuitable equipment</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="35" Id="35">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="36" Id="36">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2010" Id="2010">System: smoke alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2020" Id="2020">
+		<Name>System: sprinkler</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="40" Id="40">
+		<Name>Poor maintenance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="41" Id="41">
+		<Name>Faulty</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="42" Id="42">
+		<Name>Damaged</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="43" Id="43">
+		<Name>Incorrect positioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="44" Id="44">
+		<Name>Unsuitable equipment</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="45" Id="45">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="46" Id="46">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2020" Id="2020">System: sprinkler</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2030" Id="2030">
+		<Name>System: heat</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="50" Id="50">
+		<Name>Poor maintenance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="51" Id="51">
+		<Name>Faulty</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="52" Id="52">
+		<Name>Damaged</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="53" Id="53">
+		<Name>Incorrect positioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="54" Id="54">
+		<Name>Unsuitable equipment</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="55" Id="55">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="56" Id="56">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2030" Id="2030">System: heat</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2040" Id="2040">
+		<Name>System: flame</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="60" Id="60">
+		<Name>Poor maintenance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="61" Id="61">
+		<Name>Faulty</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="62" Id="62">
+		<Name>Damaged</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="63" Id="63">
+		<Name>Incorrect positioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="64" Id="64">
+		<Name>Unsuitable equipment</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="65" Id="65">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="66" Id="66">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2040" Id="2040">System: flame</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2050" Id="2050">
+		<Name>System: other</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="70" Id="70">
+		<Name>Poor maintenance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="71" Id="71">
+		<Name>Faulty</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="72" Id="72">
+		<Name>Damaged</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="73" Id="73">
+		<Name>Incorrect positioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="74" Id="74">
+		<Name>Unsuitable equipment</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="75" Id="75">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="76" Id="76">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2050" Id="2050">System: other</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2060" Id="2060">
+		<Name>Contaminants</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="80" Id="80">
+		<Name>Minute animals (e.g. Thrips and Midges)</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="81" Id="81">
+		<Name>Steam</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="82" Id="82">
+		<Name>Chemicals/aerosols</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="83" Id="83">
+		<Name>Dust</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="84" Id="84">
+		<Name>Smoke Cloak</Name>
+		<ScopeNotes>Where the detector raises the alarm to the FRS.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="85" Id="85">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2060" Id="2060">Contaminants</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2070" Id="2070">
+		<Name>External factors</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="90" Id="90">
+		<Name>Power surge</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="91" Id="91">
+		<Name>Storm</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="92" Id="92">
+		<Name>water supplies -sprinklers only</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="93" Id="93">
+		<Name>Bonfire</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="94" Id="94">
+		<Name>Smoke from elsewhere (not at location)</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="95" Id="95">
+		<Name>Other</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2070" Id="2070">External factors</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="100" Id="100">
+		<Name>Unknown</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="1010" Id="1010">Fire alarm due to Apparatus</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="1020" Id="1020">
+		<Name>Good Intent false alarm</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="0" Id="0">False Alarm Reason</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2100" Id="2100">
+		<Name>Fire</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1020" Id="1020">Good Intent false alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="110" Id="110">
+		<Name>Overheating light/fitting</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="111" Id="111">
+		<Name>Overheating appliance</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="113" Id="113">
+		<Name>Vehicle</Name>
+		<ScopeNotes>Includes steam, exhaust fumes or oil on a hot manifold.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="112" Id="112">
+		<Name>Fire elsewhere (not at location)</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="120" Id="120">
+		<Name>Toaster/toast</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="121" Id="121">
+		<Name>Other cooking</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="122" Id="122">
+		<Name>BBQ</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="123" Id="123">
+		<Name>Bonfire</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="130" Id="130">
+		<Name>Controlled burning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="131" Id="131">
+		<Name>Air conditioning</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="132" Id="132">
+		<Name>Steam</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="135" Id="135">
+		<Name>Water intrusion</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="133" Id="133">
+		<Name>Smoking chimney</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="134" Id="134">
+		<Name>Fumes/heat haze</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="140" Id="140">
+		<Name>Reflected light/sun-light</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="142" Id="142">
+		<Name>Reported incident/Location not found</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="143" Id="143">
+		<Name>Carbon monoxide alarm</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="144" Id="144">
+		<Name>Security/intruder alarm</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="141" Id="141">
+		<Name>Other</Name>
+		<ScopeNotes>Includes use for smoke cloak where a person calls the FRS.</ScopeNotes>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>yes</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2100" Id="2100">Fire</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="2110" Id="2110">
+		<Name>Special Service</Name>
+		<ScopeNotes/>
+		<BroaderItem ConceptId="1020" Id="1020">Good Intent false alarm</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="150" Id="150">
+		<Name>Not required</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2110" Id="2110">Special Service</BroaderItem>
+	</Item>
+	<Item Preferred="true" Obsolete="false" LastUpdatedInVersion="1.0" AddedInVersion="1.0" ConceptId="151" Id="151">
+		<Name>Reported incident/Location not found</Name>
+		<ScopeNotes/>
+		<Attributes>
+			<fire:FalseAlarmTypeDetails>
+				<fire:Other>no</fire:Other>
+			</fire:FalseAlarmTypeDetails>
+		</Attributes>
+		<BroaderItem ConceptId="2110" Id="2110">Special Service</BroaderItem>
+	</Item>
+</ControlledList>

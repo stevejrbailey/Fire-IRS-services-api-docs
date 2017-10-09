@@ -1,0 +1,46 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:fire="http://www.fire.gov.uk/schemas" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:gms-xs="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd" ValidationStatus="Full" SchemaVersion="v1-0">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_01_PF-Dwelling-Minimum</FRSIncidentNumber>
+			<NationalStatisticsNumber>
+				<FRSId>FM</FRSId>
+			</NationalStatisticsNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>50</IncidentStatus>
+			<DateCreated>2007-05-15T14:50:47.0Z</DateCreated>
+			<CreatedBy>FFMT999</CreatedBy>
+			<DateUpdated>2007-05-17T09:30:47.0Z</DateUpdated>
+			<UpdatedBy>FFMT999</UpdatedBy>
+		</AuditDetail>
+		<ResponsibleParty>
+			<FRSId>FM</FRSId>
+		</ResponsibleParty>
+		<IncidentLocation>
+			<fire:Address Validation="NLPG-check-failed">
+				<bs7666:PAON>
+					<bs7666:Description>Another Cottage</bs7666:Description>
+				</bs7666:PAON>
+				<bs7666:StreetDescription>London Road</bs7666:StreetDescription>
+				<bs7666:Town>Solihull</bs7666:Town>
+				<bs7666:PostTown>Solihull</bs7666:PostTown>
+				<bs7666:PostCode>B93 8PP</bs7666:PostCode>
+			</fire:Address>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="F">36</MobiliseIncidentType>
+			<PriorityAtCall>2</PriorityAtCall>
+			<LateCall>no</LateCall>
+			<TimeOfCall>2007-05-01T05:45:47.0Z</TimeOfCall>
+			<OriginOfCall>2</OriginOfCall>
+			<TimeStoppedMobilising>2007-05-01T05:45:52.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2007-05-01T05:45:58.0Z</TimeIncidentClosed>
+			<OverTheBorder>no</OverTheBorder>
+		</IncidentAtCall>
+		<ResourceUsage>
+			<NumberOfVehiclesDeployed>0</NumberOfVehiclesDeployed>
+			<EquipmentUsed>no</EquipmentUsed>
+			<NumberOfNonRiderOfficers>0</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+	</Incident>
+</IncidentDetails>

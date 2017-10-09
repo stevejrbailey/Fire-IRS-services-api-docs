@@ -1,0 +1,187 @@
+<IncidentDetails xmlns="http://www.fire.gov.uk/schemas/Incident" xmlns:irs="http://www.fire.gov.uk/schemas/Incident" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:gms-xs="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:apd="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" xmlns:pdt="http://www.govtalk.gov.uk/people/PersonDescriptives" xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fire.gov.uk/schemas/Incident ../xsd/FRSIncidentMessages-v1-0.xsd" ValidationStatus="Full" SchemaVersion="v1-0">
+	<Incident>
+		<Identifier>
+			<FRSIncidentNumber>IRS_WS_2_01_PF-Dwelling-Minimum</FRSIncidentNumber>
+			<NationalStatisticsNumber>
+				<FRSId>FM</FRSId>
+			</NationalStatisticsNumber>
+		</Identifier>
+		<AuditDetail>
+			<IncidentStatus>70</IncidentStatus>
+			<DateCreated>2005-12-15T14:50:47.0Z</DateCreated>
+			<CreatedBy>FFMT999</CreatedBy>
+			<DateUpdated>2006-07-23T19:29:48.577</DateUpdated>
+			<UpdatedBy>westmids</UpdatedBy>
+		</AuditDetail>
+		<IncidentLocation>
+			<fire:Address Validation="PAF-check-valid" xmlns:fire="http://www.fire.gov.uk/schemas">
+				<bs7666:PAON xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">
+					<bs7666:Description>Another Cottage</bs7666:Description>
+				</bs7666:PAON>
+				<bs7666:StreetDescription xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">London Road</bs7666:StreetDescription>
+				<bs7666:Town xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">Solihull</bs7666:Town>
+				<bs7666:PostTown xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">Solihull</bs7666:PostTown>
+				<bs7666:PostCode xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">B93 8PP</bs7666:PostCode>
+				<fire:Coordinates>
+					<bs7666:X xmlns:bs7666="http://www.govtalk.gov.uk/people/bs7666">567890</bs7666:X>
+					<bs7666:Y>567789</bs7666:Y>
+				</fire:Coordinates>
+			</fire:Address>
+		</IncidentLocation>
+		<IncidentAtCall>
+			<MobiliseIncidentType GenericType="F">36</MobiliseIncidentType>
+			<PriorityAtCall>3</PriorityAtCall>
+			<LateCall>no</LateCall>
+			<TimeOfCall>2006-10-17T05:45:47.0Z</TimeOfCall>
+			<OriginOfCall>2</OriginOfCall>
+			<TimeStoppedMobilising>2006-10-17T06:20:47.0Z</TimeStoppedMobilising>
+			<TimeIncidentClosed>2006-10-17T08:30:47.0Z</TimeIncidentClosed>
+			<OverTheBorder>no</OverTheBorder>
+		</IncidentAtCall>
+		<IncidentOnAttendance>
+			<IncidentCategory>Fire</IncidentCategory>
+			<PriorityOnAttendance>4</PriorityOnAttendance>
+			<PropertyType PropertyCategory="Dwelling" IsPropertyRegulated="no">1</PropertyType>
+			<Fire>
+				<IsPrimaryFire>yes</IsPrimaryFire>
+				<Cause>1</Cause>
+				<IsDerelict>no</IsDerelict>
+				<Building>
+					<NormalOccupationStatus>1</NormalOccupationStatus>
+					<OccupiedAtTimeOfIncident>yes</OccupiedAtTimeOfIncident>
+					<IsChimneyFire>no</IsChimneyFire>
+				</Building>
+				<PrimaryFire>
+					<IsMultiSeated>no</IsMultiSeated>
+					<IsHeatSmokeDamageOnly>no</IsHeatSmokeDamageOnly>
+					<Discovery>
+						<IgnitionToDiscovery>3</IgnitionToDiscovery>
+						<DiscoveryToCall>3</DiscoveryToCall>
+						<HowDiscovered>1</HowDiscovered>
+					</Discovery>
+					<CauseAndReason>
+						<MainCause MakeModelDescription="Zanussi X300">5</MainCause>
+						<IgnitionSource>28</IgnitionSource>
+						<IgnitionSourcePower>1</IgnitionSourcePower>
+						<CausedBy>4</CausedBy>
+						<ItemFirstIgnited>28</ItemFirstIgnited>
+						<ItemResponsibleForSpread>12</ItemResponsibleForSpread>
+						<RapidGrowth>6</RapidGrowth>
+						<DangerousSubstances>1</DangerousSubstances>
+						<ExplosionInvolved>no</ExplosionInvolved>
+					</CauseAndReason>
+					<Action>
+						<StartingDelay>2</StartingDelay>
+						<MainActionNonFRS>1</MainActionNonFRS>
+						<MainActionFRS>17</MainActionFRS>
+						<ManualSystems>
+							<ManualSystemsUsed>don&apos;t know</ManualSystemsUsed>
+						</ManualSystems>
+						<BuildingFacilities>
+							<BuildingFacility>
+								<Type>3</Type>
+								<Used>yes</Used>
+								<NotWorkingDueTo>3</NotWorkingDueTo>
+							</BuildingFacility>
+							<BuildingFacilitiesPresent>yes</BuildingFacilitiesPresent>
+						</BuildingFacilities>
+					</Action>
+					<Dwelling>
+						<SpecialConstruction>0</SpecialConstruction>
+						<EvacuationTime>1</EvacuationTime>
+						<EvacuationDelay>2</EvacuationDelay>
+						<SafetySystems>
+							<MeansOfEscape>1</MeansOfEscape>
+							<Compartmentation>2</Compartmentation>
+							<AlarmSystemsPresent>
+								<WereAlarmSystemsPresent>no</WereAlarmSystemsPresent>
+							</AlarmSystemsPresent>
+							<SafetySystemsPresent>
+								<WereSafetySystemsPresent>no</WereSafetySystemsPresent>
+							</SafetySystemsPresent>
+						</SafetySystems>
+						<Damage>
+							<FireSizeOnArrival DistanceToAdjoiningProperty="2">3</FireSizeOnArrival>
+							<DamageRestrictedTo DistanceToAdjoiningProperty="2">3</DamageRestrictedTo>
+							<FireDamageArea>4</FireDamageArea>
+							<TotalDamageArea>4</TotalDamageArea>
+							<OriginRoomSize>3</OriginRoomSize>
+							<OriginFloorSize>5</OriginFloorSize>
+						</Damage>
+						<FireLocation>
+							<FloorsAboveGround>2</FloorsAboveGround>
+							<FloorsBelowGround>0</FloorsBelowGround>
+							<FloorOfOrigin>1</FloorOfOrigin>
+						</FireLocation>
+						<FireStartLocation>59</FireStartLocation>
+						<CauseAndReason>
+							<HouseholdOccupancyType>2</HouseholdOccupancyType>
+							<OtherHumanFactor>8</OtherHumanFactor>
+							<SuspectedUnderInfluence>no</SuspectedUnderInfluence>
+						</CauseAndReason>
+					</Dwelling>
+				</PrimaryFire>
+			</Fire>
+			<InvolvementOfPersons>
+				<EvacuationAssistanceInvolved>yes</EvacuationAssistanceInvolved>
+				<EvacuationAssistance>
+					<WithAssistance>1</WithAssistance>
+					<WithoutAssistance>0</WithoutAssistance>
+				</EvacuationAssistance>
+				<VictimsInvolved>no</VictimsInvolved>
+				<AttackOnFirefightersInvolved>no</AttackOnFirefightersInvolved>
+			</InvolvementOfPersons>
+		</IncidentOnAttendance>
+		<ResourceUsage>
+			<Vehicle>
+				<Type>ATL</Type>
+				<RCCcallsign>FFM02P2</RCCcallsign>
+				<TimeMobilised>2006-10-17T06:16:00.0Z</TimeMobilised>
+				<TimeMobile>2006-10-17T06:16:30.0Z</TimeMobile>
+				<TimeAtScene>2006-10-17T06:18:22.0Z</TimeAtScene>
+				<TimeAvailable>2006-10-17T08:25:47.0Z</TimeAvailable>
+				<IsDemountable>no</IsDemountable>
+				<NumberOfCrew>6</NumberOfCrew>
+				<DeployedFrom>
+					<HomeStation>
+						<FRSId>FM</FRSId>
+						<StationId>FFM02</StationId>
+					</HomeStation>
+				</DeployedFrom>
+			</Vehicle>
+			<NumberOfVehiclesDeployed>1</NumberOfVehiclesDeployed>
+			<Equipment>
+				<Type>4</Type>
+				<NumberUsed>2</NumberUsed>
+				<RCCcallsign>FFMN501</RCCcallsign>
+			</Equipment>
+			<EquipmentUsed>yes</EquipmentUsed>
+			<FireOfficer>
+				<RCCcallsign>FFMS011</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF012</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF016</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF021</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF106</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF901</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMW882</RCCcallsign>
+			</FireOfficer>
+			<FireOfficer>
+				<RCCcallsign>FFMF883</RCCcallsign>
+			</FireOfficer>
+			<NumberOfNonRiderOfficers>0</NumberOfNonRiderOfficers>
+		</ResourceUsage>
+		<AdditionalInfo InfoType="Summary">Primary Fire - Dwelling</AdditionalInfo>
+	</Incident>
+</IncidentDetails>
